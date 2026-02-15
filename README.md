@@ -28,3 +28,31 @@ Successful ping between all PCs (0% packet loss).
 - Manual IP configuration
 - Basic Layer 2 switching
 - Network connectivity testing using ping
+
+---
+
+## Lab 02 – Inter-Network Routing (Router)
+
+### Topology
+
+![Lab 02 Topology](screenshots/lab02-topology.png)
+
+### Router Interfaces
+
+![Lab 02 Router Interfaces](screenshots/lab02-router-interfaces.png)
+
+### Cross Network Ping
+
+![Lab 02 Cross Network Ping](screenshots/lab02-cross-network-ping.png)
+
+### Description
+
+Two different networks were connected using a router.
+
+Network A: 192.168.1.0/24
+Gateway: 192.168.1.1
+
+Network B: 192.168.2.0/24
+Gateway: 192.168.2.1
+
+Devices from both networks successfully communicated through routing.
