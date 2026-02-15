@@ -56,3 +56,32 @@ Network B: 192.168.2.0/24
 Gateway: 192.168.2.1
 
 Devices from both networks successfully communicated through routing.
+
+---
+
+## Lab 03 – VLAN Segmentation (Layer 2 Isolation)
+
+Three departments were separated into different VLANs on the same switch.
+
+| Department | VLAN | Network |
+|---|---|---|
+| HR | 10 | 192.168.10.0/24 |
+| Admin | 20 | 192.168.20.0/24 |
+| Finance | 30 | 192.168.30.0/24 |
+
+### Verification — Inter-VLAN Traffic Blocked
+All cross-VLAN communication failed as expected because no Layer 3 routing device was present.
+
+#### VLAN10 (HR) cannot reach other departments
+![VLAN10 Isolation](screenshots/lab03-vlan10-isolation.png)
+
+#### VLAN20 (Admin) cannot reach other departments
+![VLAN20 Isolation](screenshots/lab03-vlan20-isolation.png)
+
+#### VLAN30 (Finance) cannot reach other departments
+![VLAN30 Isolation](screenshots/lab03-vlan30-isolation.png)
+
+### Skills Demonstrated
+- VLAN creation and port assignment
+- Broadcast domain segmentation
+- Layer 2 network isolation verification
