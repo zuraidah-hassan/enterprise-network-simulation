@@ -94,3 +94,15 @@ Lab 03 progress – Inter-VLAN Routing (Router-on-a-Stick)
 * Configured router subinterfaces with dot1Q encapsulation
 * Troubleshooting connectivity (ARP/gateway issue)
 * Preparing router model change (1941 → 2811) due to Packet Tracer compatibility
+
+### Final Result
+
+Inter-VLAN routing successfully implemented.
+
+All VLAN networks can communicate through the router:
+
+* VLAN10 (ADMIN) ↔ VLAN20 (HR)
+* VLAN10 (ADMIN) ↔ VLAN30 (FINANCE)
+* VLAN20 (HR) ↔ VLAN30 (FINANCE)
+
+Verified using ICMP ping across different subnets.
