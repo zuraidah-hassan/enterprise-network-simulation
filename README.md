@@ -106,3 +106,7 @@ All VLAN networks can communicate through the router:
 * VLAN20 (HR) ↔ VLAN30 (FINANCE)
 
 Verified using ICMP ping across different subnets.
+
+### Verification
+
+![Inter-VLAN Ping Success](screenshots/lab03-success-ping.png)
