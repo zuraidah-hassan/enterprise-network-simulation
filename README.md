@@ -110,3 +110,45 @@ Verified using ICMP ping across different subnets.
 ### Verification
 
 ![Inter-VLAN Ping Success](screenshots/lab03-success-ping.png)
+
+## Lab 04 – Inter-VLAN Routing using Layer 3 Switch (SVI)
+
+### Objective
+
+Configure communication between different VLAN networks using a multilayer switch without an external router.
+
+---
+
+## Topology
+
+![Topology](screenshots/lab04_05_topology.png)
+
+---
+
+## VLAN Configuration
+
+![VLAN Assignment](screenshots/lab04_01_vlan_assignment.png)
+
+---
+
+## Switch Virtual Interface (Gateway)
+
+![SVI Status](screenshots/lab04_02_svi_up.png)
+
+---
+
+## Routing Table
+
+![Routing Table](screenshots/lab04_03_routing_table.png)
+
+---
+
+## Connectivity Test
+
+![InterVLAN Ping](screenshots/lab04_04_intervlan_ping.png)
+
+---
+
+## Result
+
+Inter-VLAN routing successfully implemented using SVI on a Layer 3 switch without requiring a router.
