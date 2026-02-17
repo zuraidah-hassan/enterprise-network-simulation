@@ -85,3 +85,12 @@ All cross-VLAN communication failed as expected because no Layer 3 routing devic
 - VLAN creation and port assignment
 - Broadcast domain segmentation
 - Layer 2 network isolation verification
+
+Lab 03 progress – Inter-VLAN Routing (Router-on-a-Stick)
+
+* Created VLAN 10 (ADMIN), VLAN 20 (HR), VLAN 30 (FINANCE)
+* Assigned access ports Fa0/1–Fa0/3
+* Configured trunk port Fa0/24 on switch
+* Configured router subinterfaces with dot1Q encapsulation
+* Troubleshooting connectivity (ARP/gateway issue)
+* Preparing router model change (1941 → 2811) due to Packet Tracer compatibility
